@@ -7,3 +7,72 @@
     height: 7rem;
     width: auto;    
 }
+
+/* <!-- Boton-Whatsapp --> */
+.wap{
+	color: white;
+	background-color:#25d366;
+	position: fixed;
+	text-align: center;
+	border-radius: 50%;
+	box-shadow: 2px 2px 3px #999;
+	z-index: 100;
+	bottom: 1.1rem;
+	right: 1.1rem;
+	width: 2.8rem;
+	height: 2.8rem;
+	line-height: 2.7rem;
+	font-size: 1.5rem;
+	text-decoration: none;
+}
+
+/* <!-- Boton Ir arriba --> */
+
+.ir-arriba {
+	display:none;
+	position: fixed;
+	cursor: pointer;
+	background:  #9dd0f5;
+	color: white;
+	bottom: 4.1rem;
+	right: 1.1rem;
+    width: 2.85rem;
+	height: 2.8rem;
+	line-height: 2.7rem;
+    text-align: center;
+	font-size: 1.7rem;
+	border-radius: 50%;
+}
+
+
+@media (min-width: 75rem){
+
+/* <!-- Boton-Whatsapp --> */
+
+.wap{
+	bottom: 1.5rem;
+	right: 1.5rem;
+	width: 3.2rem;
+	height: 3.2rem;
+	line-height: 3.1rem;
+	font-size: 1.8rem;
+}
+
+.wap:hover {
+	color: #25d366;
+    background-color:white;
+	text-decoration: none;
+}
+
+/* <!-- Boton Ir arriba --> */
+
+.ir-arriba {
+	bottom: 5rem;
+	right: 1.5rem;
+    width: 3.2rem;
+	height: 3.2rem;
+    line-height: 3.1rem;
+    font-size: 1.7rem;
+}
+
+}
