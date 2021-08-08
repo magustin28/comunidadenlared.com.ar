@@ -21,9 +21,8 @@
 	right: 1.1rem;
 	width: 2.8rem;
 	height: 2.8rem;
-	line-height: 2.7rem;
+	line-height: 2.9rem;
 	font-size: 1.5rem;
-	text-decoration: none;
 }
 
 /* <!-- Boton Ir arriba --> */
@@ -38,7 +37,7 @@
 	right: 1.1rem;
     width: 2.85rem;
 	height: 2.8rem;
-	line-height: 2.7rem;
+	line-height: 2.8rem;
     text-align: center;
 	font-size: 1.7rem;
 	border-radius: 50%;
@@ -61,7 +60,6 @@
 .wap:hover {
 	color: #25d366;
     background-color:white;
-	text-decoration: none;
 }
 
 /* <!-- Boton Ir arriba --> */
